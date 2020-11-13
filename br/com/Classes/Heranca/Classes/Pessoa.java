@@ -1,9 +1,19 @@
 package br.com.Classes.Heranca.Classes;
 
 public class Pessoa {
-    private String nome;
-    private String cpf;
-    private Endereco endereco;
+    // Filhos podem acessar os atributos
+    protected String nome;
+    protected String cpf;
+    protected Endereco endereco;
+
+    public Pessoa(String nome) {
+        this.nome = nome;
+    }
+
+    public Pessoa(String nome, String cpf) {
+        this(nome);
+        this.cpf = cpf;
+    }
 
     public void imprime() {
         System.out.println("Nome: " + this.nome);
