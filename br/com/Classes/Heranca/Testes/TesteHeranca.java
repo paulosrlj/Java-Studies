@@ -19,5 +19,6 @@ public class TesteHeranca {
         f.setCpf("89969235");
         f.setEndereco(end);
         f.imprime();
+        f.sobrescritaTeste("Mensagem");
     }
 }

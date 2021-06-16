@@ -47,6 +47,10 @@ public class Funcionario {
         System.out.println(this.rg);
     }
 
+    public static void imprime(String algoPraimprimir) {
+        System.out.println(algoPraimprimir);
+    }
+
     public void setNome(String nome) {
         this.nome = nome;
     }

@@ -20,6 +20,10 @@ public class Pessoa {
         System.out.println("Cpf: " + this.cpf);
         System.out.println("Endereco: " + this.endereco.getRua());
     }
+    
+    public void sobrescritaTeste() {
+    	System.out.println("Oláaa");
+    }
 
     public String getNome() {
         return nome;

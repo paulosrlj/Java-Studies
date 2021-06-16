@@ -3,6 +3,7 @@ package br.com.Classes.introducaoMetodos.testesClasses;
 import br.com.Classes.introducaoMetodos.classes.Calculadora;
 
 public class calculadoraTeste {
+    // ou (String... args)
     public static void main (String[] args) {
         Calculadora calc = new Calculadora();
         calc.somaNumeros();

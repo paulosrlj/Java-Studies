@@ -15,8 +15,6 @@ public class Cliente {
     static {
         parcelas = new int[100];
 
-    
-
         System.out.println("Dentro do bloco de inicialização");
         for(int i = 1; i <= 100; i++)
             parcelas[i-1] = i;
@@ -37,6 +35,4 @@ public class Cliente {
         Cliente.parcelas = parcelas;
     }
 
-
-    
 }

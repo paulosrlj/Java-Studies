@@ -1,5 +1,10 @@
 package br.com.Classes.Heranca.Classes;
 
+/* 
+ * imprime sobrescreve o imprime da classe Pessoa (sobrescrita) (o numero de parâmetros precisa
+ * ser igual
+ * */
+
 public class Funcionario extends Pessoa {
 
     private double salario;
@@ -9,6 +14,11 @@ public class Funcionario extends Pessoa {
         this.salario = salario;
     }
 
+    public void sobrescritaTeste(String msg) {
+    	super.sobrescritaTeste();
+    	System.out.println("Sobrescrito");
+    }
+    
     public void imprime() {
         super.imprime();
         System.out.println(this.salario);
@@ -26,6 +36,5 @@ public class Funcionario extends Pessoa {
     public void setSalario(double salario) {
         this.salario = salario;
     }
-
 
 }

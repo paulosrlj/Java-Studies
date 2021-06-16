@@ -27,6 +27,7 @@ public class Calculadora {
     //     System.out.println(soma);
     // }
 
+    // recebe os valores e coloca no array 'numeros'
     public void somaArray(int... numeros){
             int soma = 0;
     
