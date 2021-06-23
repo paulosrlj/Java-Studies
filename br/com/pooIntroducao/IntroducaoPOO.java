@@ -2,8 +2,6 @@ package br.com.pooIntroducao;
 
 import java.util.Scanner;
 import java.util.Locale;
- 
-import br.com.pooIntroducao.Triangle;
 
 public class IntroducaoPOO {
 	

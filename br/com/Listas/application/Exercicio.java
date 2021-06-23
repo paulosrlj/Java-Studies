@@ -37,11 +37,11 @@ public class Exercicio {
 			
 			System.out.println();
 		}
-		
+		sc.nextLine();
+
+
 		System.out.println("Enter the employee id that will have salary increase: ");
 		int id = sc.nextInt();
-		sc.nextLine();	
-		
 		// Find the employee
 		Employee emp = employees.stream().filter(x -> x.getId() == id).findFirst().orElse(null);
 		

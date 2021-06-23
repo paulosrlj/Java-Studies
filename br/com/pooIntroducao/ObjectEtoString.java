@@ -1,7 +1,5 @@
 package br.com.pooIntroducao;
 
-import br.com.pooIntroducao.Triangle;
-
 public class ObjectEtoString {
 	/** getClass - retorna o tipo do objeto 
 	 *  equals - compara se o objeto é igual a outro

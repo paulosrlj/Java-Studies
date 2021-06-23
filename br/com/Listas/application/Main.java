@@ -7,17 +7,17 @@ import java.util.stream.Collectors;
 public class Main {
 
 	public static void main(String[] args) {
-		/**
-		 * Tamanho da lista: size()
-		 * Inserir: add(obj), add(int, obj)
-		 * Remover: remove(obj), remove(int), removeIf(Predicate)
-		 * Encontrar posição de elemento: indexOf(obj), lastIndexOf(obj)
-		 * Filtrar lista com base em predicado:
-		 * 	List<Integer> result = list.stream().filter(x -> x > 4).collect(Collector.toList());
-		 * Encontrar primeira ocorrência com base em predicado:
-		 * Integer result = list.stream().filter(x -> x > 4).findFirst().orElse(null);
+		/*
+		  Tamanho da lista: size()
+		  Inserir: add(obj), add(int, obj)
+		  Remover: remove(obj), remove(int), removeIf(Predicate)
+		  Encontrar posição de elemento: indexOf(obj), lastIndexOf(obj)
+		  Filtrar lista com base em predicado:
+		  	List<Integer> result = list.stream().filter(x -> x > 4).collect(Collector.toList());
+		  Encontrar primeira ocorrência com base em predicado:
+		  Integer result = list.stream().filter(x -> x > 4).findFirst().orElse(null);
 		 */
-		
+
 		List<String> list = new ArrayList<>();
 		
 		list.add("Maria");

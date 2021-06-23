@@ -1,6 +1,5 @@
 package br.com.membrosEstaticos.exercicioFixacao;
 
-import br.com.membrosEstaticos.exercicioFixacao.CurrencyConverter;
 import java.util.Locale;
 import java.util.Scanner;
 

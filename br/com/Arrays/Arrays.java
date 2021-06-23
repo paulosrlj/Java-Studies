@@ -16,8 +16,7 @@ public class Arrays {
         dias[2] = new int[4];
 
         for (int[] arr : dias)
-            for (int num : arr)
-                System.out.println(num);
+            for (int num : arr) System.out.println(num);
 
         System.out.println();
         // array multidimensional
