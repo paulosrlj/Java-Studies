@@ -15,7 +15,7 @@ public class Datas {
         SimpleDateFormat sdf3 = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
         sdf3.setTimeZone(TimeZone.getTimeZone("GMT"));
 
-        Date y1 = sdf1.parse("25/06/2018");
+            Date y1 = sdf1.parse("25/06/2018");
         Date y2 = sdf2.parse("25/06/2018 15:42:07");
 
         System.out.println(y1);
