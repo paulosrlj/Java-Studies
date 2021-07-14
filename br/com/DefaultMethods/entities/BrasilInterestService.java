@@ -11,4 +11,8 @@ public class BrasilInterestService implements InterestService {
     public double getInterestRate() {
         return interestRate;
     }
+
+    public void hello() {
+        System.out.println("Olaaaa");
+    }
 }
