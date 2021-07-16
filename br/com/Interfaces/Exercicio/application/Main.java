@@ -4,6 +4,7 @@ import br.com.Interfaces.Exercicio.entities.Contract;
 import br.com.Interfaces.Exercicio.entities.Installment;
 import br.com.Interfaces.Exercicio.services.InstallmentService;
 import br.com.Interfaces.Exercicio.services.PaypalService;
+import br.com.Interfaces.services.TaxService;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
