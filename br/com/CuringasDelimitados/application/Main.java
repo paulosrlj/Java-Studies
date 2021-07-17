@@ -6,6 +6,7 @@ import br.com.CuringasDelimitados.entities.Shape;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 //List<Shape> não é supertipo de List<Circle> ou List<Rectangle>
@@ -29,7 +30,6 @@ public class Main {
         intList.add(5);
 
         List<? extends Number> list = intList;
-
         Number x = list.get(0);
 //        list.add(20); // Erro
 
